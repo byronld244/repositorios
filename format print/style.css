@@ -1,0 +1,68 @@
+body {
+    font-family: 'Berlin Sans FB Demi', sans-serif;
+    max-width: 800px;
+    margin: 100px auto;
+    padding: 10px;
+    background-color: #f4f4f4;
+}
+
+.container {
+    border: 2px solid #ddd;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: #333;
+    text-align: center; 
+    margin-bottom: 10px;
+}
+
+.details {
+    margin-top: 25px;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.details td, .details th {
+    padding: 8px;
+    border: 3px solid #000000;
+}
+
+.details th {
+    background-color: #18f7ff;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.logo {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.logo img {
+    width: 100px;
+    height: auto;
+    padding: 10px;
+}
+
+@media (max-width: 991px) {
+    body {
+        padding: 10px;
+    }
+    
+    .container {
+        padding: 15px;
+    }
+    
+    h1 {
+        font-size: 1.5em;
+    }
+    
+    .details th, .details td {
+        padding: 6px;
+    }
+}
